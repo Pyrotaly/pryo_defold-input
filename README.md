@@ -12,3 +12,5 @@ Defold-Input contains a number of different Lua modules and scripts to simplify 
 * [State](in/state.md)
 * [Button](in/button.md)
 * [On screen virtual controls](in/onscreen.md)
+
+https://github.com/Pyrotaly/pryo_defold-input/archive/refs/heads/master.zip
