@@ -74,6 +74,8 @@ function M.on_input(trigger, player, gamepad)
 	end
 end
 
-
+function M.test()
+	print("test")
+end
 
 return M
