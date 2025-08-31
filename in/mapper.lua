@@ -31,7 +31,7 @@ function M.bind(trigger, action, player, gamepad)
 		action = action,
 		gamepad = gamepad,
 	}
-	return previous -- and previous.action
+	return previous and previous.action
 end
 
 
