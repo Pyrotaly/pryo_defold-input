@@ -75,8 +75,8 @@ function M.on_input(trigger, player, gamepad)
 	end
 end
 
-function M.test()
-	print("test")
+function M.return_player_bindings(player_id)
+	return bindings[player_id]
 end
 
 return M
