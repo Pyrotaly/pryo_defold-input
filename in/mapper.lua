@@ -25,7 +25,6 @@ function M.bind(trigger, action, player, gamepad)
 	assert(trigger)
 	assert(action)
 	local bindings = get_player_bindings(player)
-	pprint(bindings)
 	local previous = bindings[trigger]
 	bindings[trigger] = {
 		action = action,
