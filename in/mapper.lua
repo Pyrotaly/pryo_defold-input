@@ -75,6 +75,17 @@ function M.on_input(trigger, player, gamepad)
 	end
 end
 
+function M.unbind_action(player_id, action)
+	assert(action)
+	local bindings = get_player_bindings(player_id)
+	for trigger, binding in pairs(bindings) do
+		if binding.action == action then
+			bindings[trigger] = nil
+		end
+	end
+end
+
+
 function M.return_player_bindings(player_id)
 	return bindings[player_id]
 end
